@@ -16,12 +16,13 @@ const About = () => {
         <div className="pl-2">
           <p className="text-lg mt-8">
             All I know is one thing is that Coding is something that triggers my
-            soul. I have started my journey through Java after solved some
-            basics problems After that I started learning HTML,CSS , made 4-5
-            landing pages . After that I come to know about "Frontend
-            Developemnt" in a more mature way . Learned Javascript , React Js
-            and guess what ? I fall in love completely with React Js . Want to
-            make more and more projects into it.
+            soul. I have started my journey through Java after solving some
+            basics problems into Java, I gain some confidence in programming.
+            Later on I started learning HTML,CSS , made 4-5 landing pages .
+            After that I came to know about "Frontend Developemnt" in a more
+            mature way . Learned Javascript , React Js and guess what ? I fall
+            in love completely with React Js . Want to make more and more
+            projects into it.
           </p>
 
           <br />
