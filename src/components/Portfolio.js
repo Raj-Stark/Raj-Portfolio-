@@ -42,17 +42,17 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-auto "
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-auto  "
     >
       <div className=" max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="h-20 pl-4 bg-black  flex items-center shadow-md  shadow-gray-600 ">
-          <p className="text-4xl font-bold  uppercase  border-gray-500 font-signature ">
+        <div className=" h-14 sm:h-20 pl-4 bg-black  flex items-center shadow-md  shadow-gray-600 ">
+          <p className="text-2xl sm:text-4xl font-bold  uppercase  border-gray-500 font-signature ">
             Portfolio
           </p>
         </div>
         <p className="py-6">Check out some of my work right here</p>
 
-        <div className="mt-20 flex flex-col gap-14">
+        <div className="mt-10 flex flex-col gap-14">
           {portfolios.map(
             ({ id, src, name, desc, techStack, liveLink, codeLink }) => (
               <div

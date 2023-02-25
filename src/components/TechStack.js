@@ -64,7 +64,7 @@ const TechStack = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-auto sm:pt-20 pt-10 "
     >
       <div className="max-w-screen-xl mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         {/* <div>
@@ -74,8 +74,8 @@ const TechStack = () => {
          
         </div> */}
 
-        <div className="h-20 pl-4 bg-black  flex items-center shadow-md  shadow-gray-600 ">
-          <p className="text-4xl font-bold  uppercase  border-gray-500 font-signature ">
+        <div className=" h-14 sm:h-20 pl-4 bg-black  flex items-center shadow-md  shadow-gray-600 ">
+          <p className="text-2xl sm:text-4xl font-bold  uppercase  border-gray-500 font-signature ">
             Experience
           </p>
         </div>
